@@ -39,6 +39,7 @@ fi
 alias dev="cd ~/Documents/Development"
 alias ..="cd .."
 alias server="php -S localhost:3000"
-alias st="open -a \"sublime text\""
+alias subl="open -a \"sublime text\""
 alias l="ls"
 alias ll="ls -a"
+alias mytime="open ~/Documents/Development/timecard"
