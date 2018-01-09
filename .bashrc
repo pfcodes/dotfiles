@@ -37,9 +37,12 @@ fi
 
 # Shortcuts 
 alias dev="cd ~/Documents/Development"
+alias .="open ."
 alias ..="cd .."
-alias server="php -S localhost:3000"
+alias server="python3 -m http.server 8000 | open http://localhost:8000"
 alias subl="open -a \"sublime text\""
 alias l="ls"
 alias ll="ls -a"
-alias mytime="open ~/Documents/Development/timecard"
+alias mytime="open ~/Documents/Development/.timecard"
+alias sticky="open -a \"stickies\""
+
